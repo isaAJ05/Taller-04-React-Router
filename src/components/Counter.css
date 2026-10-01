@@ -1,0 +1,68 @@
+.enrollment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-color-dark);
+  padding: 3.5rem 2rem;
+  text-align: center;
+}
+
+.enrollment-title {
+  color: white;
+  font-size: 1.15rem;
+  margin-bottom: 0.4rem;
+}
+
+.enrollment-subtitle {
+  color: var(--muted-color);
+  font-size: 0.8rem;
+  margin-bottom: 1.8rem;
+}
+
+.enrollment-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+}
+.counter-box {
+  display: inline-flex;
+  align-items: center;
+  gap: 1.2rem;
+  background: linear-gradient(180deg, var(--primary-color) 0%, var(--primary-color-dark) 100%);
+  padding: 0.6rem 1.2rem;
+  border-radius: 999px;
+}
+
+.counter-button {
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--accent-color);
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease;
+}
+
+.counter-button:hover {
+  background-color: var(--accent-hover);
+}
+
+.counter-value {
+  min-width: 2.5rem;
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.enrollment-label {
+  color: var(--muted-color);
+  font-size: 0.75rem;
+  margin-top: 1rem;
+}

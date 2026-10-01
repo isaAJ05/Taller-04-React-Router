@@ -1,0 +1,15 @@
+.site-footer {
+  background-color: var(--footer-color);
+  padding: 1.2rem 2rem;
+  text-align: center;
+}
+
+.footer-copyright {
+  color: #a9a6bd;
+  font-size: 0.75rem;
+  font-weight: 300;
+}
+
+.footer-copyright strong {
+  color: var(--accent-color);
+}

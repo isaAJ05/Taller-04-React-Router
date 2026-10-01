@@ -1,0 +1,46 @@
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: var(--primary-color-dark);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  color: white;
+  font-weight: 700;
+  padding: 1rem 1rem 1rem 2rem;
+  text-decoration: none;
+}
+
+.brand-accent {
+  color: var(--accent-color);
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  display: block;
+  padding: 1rem;
+  color: white;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+}
+.nav-list li:last-child .nav-link {
+  padding-right: 2rem;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  transform: scale(1.05);
+}
+.nav-link-active {
+  color: var(--accent-hover);
+  font-weight: 700;
+}
